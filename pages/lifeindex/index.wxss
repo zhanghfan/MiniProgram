@@ -1,0 +1,25 @@
+/* pages/lifeindex/lifeindex/index.wxss */ 
+page { 
+  overflow:hidden; 
+  position:fixed; 
+  background-image:url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-168658.jpg'); 
+  margin: 0px; 
+  /*下面的是关键的设置100%显示*/ 
+  background-size: 100% 100%; } 
+  .container { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    padding: 0;/**内边距**/ 
+    margin: 0;/**外边距**/ 
+    height: 700rpx; 
+    display: block; /**块级元素**/ 
+  } 
+  .suggestion{ 
+    margin-top: 5%;} 
+  .suggestion .title{ display: block; padding: 3% 5%; } 
+  .suggestion .list{ display: flex; font-size: 12px; margin-top: 1px; }
+  .suggestion .list_l{ flex: 1; text-align: center; color: rgba(155, 6, 122, 0.76); padding: 8px;} .suggestion       .list_l image{ width:30px; height: 30px; display: block; margin: 0 auto;} 
+  .suggestion .list_r{ flex: 4; padding: 8px; color: rgb(255, 255, 255);} 
+  .suggestion .list_t{ font-size: 14px; display: block; margin-bottom: 5px; color: rgb(126, 61, 61);}
